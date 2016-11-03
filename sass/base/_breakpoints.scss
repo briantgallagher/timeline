@@ -1,0 +1,16 @@
+/* outputs simple breakpoint wrapper
+========================================================================== */
+
+ @mixin breakpoint($size) {
+
+ 	@media all and (min-width: $size) { 
+ 		@content;
+ 	}
+}
+
+
+/* variable assignment for commonly-used breakpoint widths
+========================================================================== */
+$small: 360px;
+$medium: 520px;
+$large: 1024px;

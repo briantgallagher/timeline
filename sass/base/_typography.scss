@@ -1,0 +1,37 @@
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+
+@font-face {
+  font-family: 'MLS';
+  src: url('fonts/icomoon.eot'); /* IE9 Compat Modes */
+  src: url('fonts/icomoon.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/icomoon.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/icomoon.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/icomoon.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+$font-mls: 'MLS';
+$font-titillium: 'Titillium Web', sans-serif;
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $font-titillium;
+	font-weight: 700;
+}
+
+body {
+	font-family: $font-titillium;
+	font-weight: 400;
+}
+
+
+/*   MLS font character shortcuts
+  ========================================================================== */
+
+$char-mls-cup: "\e600";
+$char-open-cup: "\e601";
+$char-supporters-shield: "\e602";
+$char-voyageurs-cup: "\e603";
+$char-zoom: "\e604";
+$char-close: "\e605";

@@ -1,0 +1,68 @@
+/*	#table-position - displays numeric position across top of screen (large size)
+	========================================================================== */
+
+/*	placeholder for hidden state of #table-position ol li (also used by .table-list li)
+	========================================================================== */
+@include breakpoint($large) {
+	%hidden-li {
+		width: 0;
+		height: 0;
+		margin-right: 0;
+		transition: all 0.4s ease-out;
+		opacity: 0;
+	}
+}
+
+#table-position {
+	display: none;
+
+	@include breakpoint($large) {
+		display: block;
+		width: 100%;
+		border-top: 1px solid lighten(#1A1A1A, 10%);
+		border-bottom: 1px solid darken(#1A1A1A, 10%);
+		background-color: #1A1A1A;
+
+		ol {
+			overflow: hidden;
+			max-width: $max-width * 1px;
+			padding: 1vw 0;
+			margin: 0 auto;
+			list-style: none;
+
+			&:before, & li {
+				float: left;
+				width: $li-width * 1%;
+				margin-right: 1%;
+			}
+
+			&:before {
+				content: "";
+				height: 1px;
+			}
+
+			li {
+				font-size: 20px;
+				font-size: 1.25rem;
+				font-weight: bold;
+				text-align: center;
+				transition: all 0.3s ease-out;
+
+				&:last-child {
+					margin-right: 0;
+				}
+
+				&.hidden {
+					@extend %hidden-li;
+				}
+			}
+		}
+
+		&.fixed {
+			position: fixed;
+			z-index: 20;			
+			top: 0;
+			left: 0;
+		}
+	}
+}

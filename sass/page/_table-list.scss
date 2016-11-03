@@ -1,0 +1,350 @@
+/*	.table-list - class used for the <ol> of the league's table
+	========================================================================== */
+
+.table-list {
+	z-index: 900;
+	display: none;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	counter-reset: ol-counter;
+
+	@include breakpoint($large) {
+		display: block;
+		padding: 12px 0;
+		padding: .75rem 0;
+		transition: all 0.4s ease-out;
+	}
+
+	&:nth-child(even) {
+		@include breakpoint($large) {
+			background-color: #5E5E5E;
+		}
+	}
+
+	/* .table-list:before - above 1024px, show data-year attribute in :before
+	   ========================================================================== */
+	&:before {
+		@include breakpoint($large) {
+			float: left;
+			width: $li-width * 1%;
+			height: 2.7vw;
+			max-height: $max-height * 1px;
+			max-height: ($max-height/16) * 1rem;
+			padding-top: 1.3vw;
+			margin-right: 1%;
+			font-size: 1.1vw;
+			text-align: center;
+			content: attr(data-year);
+		}
+	}
+
+	/* .table-list.hidden - above 1024px, hide tables without selected conference
+	   ========================================================================== */
+	&.hidden {
+		height: 0;
+		padding: 0;
+		border: none;
+	}
+
+
+	/* .table-list > li - table list's direct child <li>s
+	   ========================================================================== */
+	& > li {
+		position: relative;
+		overflow: hidden;
+		height: 42px;
+		height: 2.625rem;
+		width: 100%;
+		padding: 0 0 0 40px;
+		padding: 0 0 0 2.5rem;
+		color: #FFFFFF;
+		font-weight: bold;
+		text-shadow: 1px 1px #333333;
+		transition: all 0.3s ease-out;
+		cursor: pointer;
+
+		@include breakpoint($small) {
+			height: 50px;
+			height: 3.125rem;
+			width: 100%;
+			padding: 0 0 0 40px;
+			padding: 0 0 0 2.5rem;
+		}
+
+		@include breakpoint($medium) {
+			cursor: auto;
+		}
+
+		@include breakpoint($large) {
+			overflow: visible;
+			float: left;
+			width: $li-width * 1%;
+			height: $li-width * 1vw;
+			max-height: $max-height * 1px;
+			max-height: ($max-height/16) * 1rem;
+			padding: 0;
+			margin-right: 1%;
+			cursor: pointer;
+		}
+
+		/* .table-list > li.grey - decrease opacity of non-selected when connecting lines are drawn
+	   ========================================================================== */
+		&.grey {
+			border: none;
+			opacity: .28;
+		}
+
+		/* .table-list > li:before - number labels for each row (small & medium sizes)
+	   ========================================================================== */
+		&:before {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 40px;
+			width: 2.5rem;
+			padding: 10px 0 9px;
+			padding: .625rem 0 .5625rem;
+			background-color: rgba(0,0,0,0.1);
+			font-size: 14px;
+			font-size: .875rem;
+			text-align: center;
+			content: counter(ol-counter);
+			counter-increment: ol-counter;
+
+			@include breakpoint($small) {
+				width: 48px;
+				width: 2.5rem;
+				padding: 12px 0;
+				padding: .75rem 0;
+				font-size: 16px;
+				font-size: 1rem;
+			}
+
+			@include breakpoint($large) {
+				display: none;
+			}
+		}
+
+		&.active:before {
+			height: 81px;
+			height: 5.0625rem;
+
+			@include breakpoint($small) {
+				height: 97px;
+				height: 6.0625rem;
+			}
+		}
+
+		&.hidden {
+			@extend %hidden-li;
+		}
+
+		/* .table-list > li span - contains team name and applicable trophies
+	   ========================================================================== */
+		span {
+			display: inline-block;
+			float: left;
+			height: 40px;
+			height: 2.5rem;
+			padding: 10px 0 9px 8px;
+			padding: .625rem 0 .5625rem .5rem;	
+			font-size: 14px;
+			font-size: .875rem;
+
+			@include breakpoint($small) {
+				height: 48px;
+				height: 3rem;
+				padding-top: 12px;
+				padding-top: .75rem;
+				font-size: 16px;				
+				font-size: 1rem;
+			}
+
+			@include breakpoint($large) {
+				overflow: hidden;
+				width: 0;
+				height: 0;
+				padding: 0;
+				margin: 0;
+			}
+
+			/* .table-list > li span:after - trophy icon as :after element
+	  		 ========================================================================== */
+			&:after{
+				display: inline-block;
+				float: right;
+				margin: 3px 0 0 8px;
+				margin: .1875rem 0 0 .5rem;				
+				font-family: $font-mls;
+				font-size: 16px;
+				font-size: 1rem;
+
+				@include breakpoint($small) {
+					margin: 0 0 0 8px;
+					margin: 0 0 0 .5rem;
+					font-size: 24px;
+					font-size: 1.5rem;				
+				}
+
+				@include breakpoint($large) {
+					position: absolute;
+					z-index: 10;
+					top: -8px;
+					top: -.5rem;
+					left: -12px;
+					left: -.75rem;
+					color: #DDDDDD;					
+					text-shadow: 1px 1px 3px #000000;
+				}
+			}
+
+			&.mls-cup:after {
+				content: "#{$char-mls-cup}";
+			}
+
+			&.open-cup:after {
+				content: "#{$char-open-cup}";
+			}
+
+			&.supporters-shield:after {
+				content: "#{$char-supporters-shield}";
+			}
+
+			&.voyageurs-cup:after {
+				content: "#{$char-voyageurs-cup}";
+			}
+
+			&.mls-cup.open-cup:after {
+				content: "#{$char-mls-cup}#{$char-open-cup}";
+			}
+
+			&.mls-cup.supporters-shield:after {
+				content: "#{$char-mls-cup}#{$char-supporters-shield}";
+			}
+
+			&.mls-cup.voyageurs-cup:after {
+				content: "#{$char-mls-cup}#{$char-voyageurs-cup}";
+			}
+
+			&.open-cup.supporters-shield:after {
+				content: "#{$char-supporters-shield}#{$char-open-cup}";
+			}
+
+			&.voyageurs-cup.supporters-shield:after {
+				content: "#{$char-supporters-shield}#{$char-voyageurs-cup}";
+			}
+
+			&.mls-cup.open-cup.supporters-shield:after {
+				content: "#{$char-mls-cup}#{$char-supporters-shield}#{$char-open-cup}";
+			}
+
+			&.mls-cup.voyageurs-cup.supporters-shield:after {
+				content: "#{$char-mls-cup}#{$char-supporters-shield}#{$char-voyageurs-cup}";
+			}
+		}
+
+		@include breakpoint($large) {
+			/* .table-list > li .zoom - large size - magnifying glass for selected year/team
+ 	  		========================================================================== */
+			.zoom {
+				position: absolute;
+				z-index: 10;
+				bottom: 0;
+				right: 0;
+				display: table;
+				background-color: inherit;
+				color: inherit;
+
+				&:after {
+					z-index: 9;					
+					width: 100%;
+					height: 100%;
+					display: block;
+					vertical-align: middle;
+					background-color: inherit;
+					color: inherit;
+					font-family: 'MLS';
+					font-size: 2vw;
+					line-height: 4vw;
+					text-shadow: inherit;
+					text-align: center;
+					content: "#{$char-zoom}";
+				}
+
+				&:hover {
+					&:after {
+						content: "#{$char-close}";
+					}
+				}
+			}
+		}
+	}
+
+		/* .table-list li.active - expanded state of each row for small views
+ 	  ========================================================================== */
+	& > li.active {
+		height: 80px;
+		height: 5rem;
+
+		@include breakpoint($small) {
+			height: 99px;
+			height: 6.1875rem;
+		}
+
+		/* .table-list li.active .stats - active state modifications to .stats <ul>
+	  ========================================================================== */
+		.stats {
+			float: left;
+			width: 100%;
+			border-top: 1px solid rgba(0,0,0,0.21);
+
+			li {
+				position: relative;
+				display: block;
+				width: 20%;
+			}
+		}
+
+		.p:before, .gd:before, .w:before, .l:before, .d:before {
+			position: absolute;
+			top: 0;
+			left: 2px;
+			left: .125rem;
+			font-size: 11px;
+			font-size: .67rem;
+
+			@include breakpoint($small) {
+				top: 4px;
+				top: .25rem;
+				left: 4px;
+				left: .25rem;
+			}
+		}
+
+		.p:before {
+			content: "Pts";
+		}
+
+		.gd:before {
+			content: "GD";
+		}
+
+		.w:before {
+			content: "W";
+		}
+
+		.l:before {
+			content: "L";
+		}
+
+		.d:before {
+			content: "D";
+		}
+	}
+
+	&.current {
+		display: block;
+	}
+}

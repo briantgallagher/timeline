@@ -1,0 +1,58 @@
+/*	#filter - allows user to filter by conference (large size)
+	========================================================================== */
+
+#filter {
+	display: none;
+
+	@include breakpoint($large) {
+		position: relative;
+		display: block;
+		padding: 1.1vw 0;
+		border-top: 1px solid lighten(#333333, 10%);
+		border-bottom: 1px solid darken(#333333, 10%);
+		background-color: #333333;
+
+		p {
+			margin: 0;
+			text-align: center;
+		}
+
+		span {
+			position: relative;
+			overflow: hidden;
+			margin-left: 24px;
+			margin-left: 1.5rem;
+
+			&:first-of-type {
+				margin-left: 12px;
+				margin-left: .75rem;
+			}
+
+			label {
+				box-sizing: border-box;
+				padding: 2px 12px;
+				padding: .125rem .75rem;
+				border: 1px solid #FFFFFF;
+				border-radius: 4px;
+				cursor: pointer;
+
+				&:hover {
+					padding: 0 10px;
+					padding: 0 .625rem;
+					border-width: 3px;
+					opacity: .9;
+				}
+			}
+
+			input[type="radio"] {
+				display: none;
+			}
+
+			input[type="radio"]:checked + label {
+				background-color: #FFFFFF;
+				color: #333333;
+				font-weight: bold;
+			}
+		}
+	}
+}

@@ -1,0 +1,368 @@
+/* ==========================================================================
+   Team Colors & Text Settings
+   ========================================================================== */
+
+/* Team Block Mixin
+========================================================================== */
+
+@mixin team-colors($color) {
+	background-color: $color;
+	border-top: 1px solid lighten($color, 10%);
+	border-bottom: 1px solid darken($color, 10%);
+
+	@media all and (min-width: 1024px) {
+		border: none;
+	}
+}
+
+
+/* Chicago Fire
+========================================================================== */
+$chicago-fire: #BA0C2F;
+
+.chicago-fire {
+	@include team-colors($chicago-fire);
+}
+
+
+
+/* Chivas USA
+========================================================================== */
+$chivas-usa: #E11B22;
+
+.chivas-usa {
+	@include team-colors($chivas-usa);
+}
+
+
+
+/* Colorado Rapids
+========================================================================== */
+$colorado-rapids: #862633;
+
+.colorado-rapids {
+	@include team-colors($colorado-rapids);
+
+	// 1996-2006
+	@for $i from 1996 through 2006 {
+		.table-list[data-year="#{$i}"] & {
+			$colorado-rapids: #154734;
+
+			@include team-colors($colorado-rapids);
+		}
+	}
+
+}
+
+
+
+/* Columbus Crew
+========================================================================== */
+$columbus-crew: #FFF200;
+$columbus-crew-black: #191919;
+
+.columbus-crew {
+	@include team-colors($columbus-crew);
+
+	.table-list &, .table-list &:before, .table-list & span {
+		color: $columbus-crew-black;
+		text-shadow: 1px 1px #E5E5E5;
+	}
+
+	// 1996-2014
+	@for $i from 1996 through 2014 {
+		.table-list[data-year="#{$i}"] & {
+			$columbus-crew: #FFE427;
+
+			@include team-colors($columbus-crew);
+		}
+	}
+}
+
+
+
+/* D.C. United
+========================================================================== */
+$dc-united: #191919;
+
+.dc-united {
+	@include team-colors($dc-united);
+}
+
+
+
+/* FC Dallas
+========================================================================== */
+$fc-dallas: #BC123C;
+
+.fc-dallas {
+	@include team-colors($fc-dallas);
+
+	// 1996-2004
+	@for $i from 1996 through 2004 {
+		.table-list[data-year="#{$i}"] & {
+			$fc-dallas: #A6192E;
+
+			@include team-colors($fc-dallas);
+		}
+	}
+}
+
+
+
+/* Houston Dynamo
+========================================================================== */
+$houston-dynamo: #E57200;
+
+.houston-dynamo {
+	@include team-colors($houston-dynamo);
+}
+
+
+
+/* Impact Montréal
+========================================================================== */
+$impact-montreal: #003087;
+
+.impact-montreal {
+	@include team-colors($impact-montreal);
+}
+
+
+
+/* LA Galaxy - Override mixin's border colors
+========================================================================== */
+$la-galaxy: #FFFFFF;
+$la-galaxy-blue: #162539;
+
+.la-galaxy {
+	@include team-colors($la-galaxy);
+
+	border-top: 1px solid darken($la-galaxy, 3%);
+	border-bottom: 1px solid darken($la-galaxy, 10%);
+
+
+	.table-list &, .table-list &:before, .table-list & span {
+		color: $la-galaxy-blue;
+		text-shadow: 1px 1px #E5E5E5;
+	}
+
+	// 1996-2007 - (background color shared between two logos)
+	@for $i from 1996 through 2007 {
+		.table-list[data-year="#{$i}"] & {
+			$la-galaxy: #FFC658;
+
+			@include team-colors($la-galaxy);
+
+
+		}
+
+		.table-list[data-year="#{$i}"] &, .table-list[data-year="#{$i}"] &:before, .table-list[data-year="#{$i}"] & span {
+			color: #191919;
+			text-shadow: 1px 1px #E5E5E5;
+		}
+	}
+}
+
+
+
+/* Miami Fusion
+========================================================================== */
+$miami-fusion: #012169;
+
+.miami-fusion {
+	@include team-colors($miami-fusion)
+}
+
+
+
+/* New England Revolution
+========================================================================== */
+$new-england-revolution: #002A5C;
+
+.new-england-revolution {
+	@include team-colors($new-england-revolution);
+}
+
+
+
+/* New York City FC
+========================================================================== */
+$new-york-city-fc: #6CACE4;
+
+.new-york-city-fc {
+	@include team-colors($new-york-city-fc);
+}
+
+
+
+/* New York Red Bulls
+========================================================================== */
+$new-york-red-bulls: #E50B2C;
+
+.new-york-red-bulls {
+	@include team-colors($new-york-red-bulls);
+
+	// 1996-2005 - (background color shared between two logos)
+	@for $i from 1996 through 2005 {
+		.table-list[data-year="#{$i}"] & {
+			$new-york-red-bulls: #C8102E;
+
+			@include team-colors($new-york-red-bulls);
+		}
+	}
+}
+
+
+
+/* Orlando City
+========================================================================== */
+$orlando-city: #5F259F;
+
+.orlando-city {
+	@include team-colors($orlando-city);
+}
+
+
+
+/* Philadelphia Union
+========================================================================== */
+$philadelphia-union: #041C2C;
+
+.philadelphia-union {
+	@include team-colors($philadelphia-union);
+}
+
+
+
+/* Portland Timbers
+========================================================================== */
+$portland-timbers: #004712;
+
+.portland-timbers {
+	@include team-colors($portland-timbers);
+}
+
+
+
+/* Real Salt Lake
+========================================================================== */
+$real-salt-lake: #9D2235;
+
+.real-salt-lake {
+	@include team-colors($real-salt-lake);
+}
+
+
+
+/* San Jose Earthquakes
+========================================================================== */
+$san-jose-earthquakes: #003DA5;
+
+.san-jose-earthquakes {
+	@include team-colors($san-jose-earthquakes);
+
+	// 2008-2013
+	@for $i from 2008 through 2013 {
+		.table-list[data-year="#{$i}"] & {
+			$san-jose-earthquakes: #0072CE;
+
+			@include team-colors($san-jose-earthquakes);
+		}
+	}
+
+	// 2006-2007 - Team on hiatus
+
+	// 2000-2005
+	@for $i from 2000 through 2005 {
+		.table-list[data-year="#{$i}"] & {
+			$san-jose-earthquakes: #012169;
+
+			@include team-colors($san-jose-earthquakes);
+		}
+	}
+
+	// 1996-1999
+	@for $i from 1996 through 1999 {
+		.table-list[data-year="#{$i}"] & {
+			$san-jose-earthquakes: #B6E7EF;
+
+			@include team-colors($san-jose-earthquakes);
+		}
+	}
+}
+
+
+
+/* Seattle Sounders
+========================================================================== */
+$seattle-sounders: #5D9732;
+
+.seattle-sounders {
+	@include team-colors($seattle-sounders);
+}
+
+
+
+/* Sporting Kansas City
+========================================================================== */
+$sporting-kansas-city: #A7BCD6;
+
+.sporting-kansas-city {
+	@include team-colors($sporting-kansas-city);
+
+	// 1997-2010
+	@for $i from 1997 through 2010 {
+		.table-list[data-year="#{$i}"] & {
+			$sporting-kansas-city: #00A3E0;
+
+			@include team-colors($sporting-kansas-city);
+		}
+	}
+
+	// 1996
+	.table-list[data-year="1996"] & {
+		$sporting-kansas-city: #0072CE;
+
+		@include team-colors($sporting-kansas-city);
+	}
+}
+
+
+
+/* Tampa Bay Mutiny
+========================================================================== */
+$tampa-bay-mutiny: #00205B;
+
+.tampa-bay-mutiny {
+	@include team-colors($tampa-bay-mutiny);
+}
+
+
+
+/* Toronto FC
+========================================================================== */
+$toronto-fc: #C8102E;
+
+.toronto-fc {
+	@include team-colors($toronto-fc);
+}
+
+
+
+/* Vancouver Whitecaps- Override mixin's border colors
+========================================================================== */
+$vancouver-whitecaps: #FFFFFF;
+$vancouver-whitecaps-blue: #00245D;
+
+.vancouver-whitecaps {
+	@include team-colors($vancouver-whitecaps);
+
+	border-top: 1px solid darken($vancouver-whitecaps, 3%);
+	border-bottom: 1px solid darken($vancouver-whitecaps, 10%);
+
+	.table-list &, .table-list &:before, .table-list & span {
+		color: $vancouver-whitecaps-blue;
+		text-shadow: 1px 1px #E5E5E5;
+	}
+}

@@ -1,0 +1,37 @@
+/*	#notes, #acknowledgements, #footer
+	========================================================================== */
+
+#notes-acknowledgements, footer {
+	overflow: hidden;
+	background-color: #333333;
+}
+
+#notes-acknowledgements > div, footer div {
+	@include breakpoint($large) {
+		max-width: 1024px;
+		margin: 16px auto;
+		margin: 1rem auto;
+	}
+}
+
+#notes, #acknowledgements, footer div {
+	padding: 0 16px;
+	padding: 0 1rem;
+
+	@include breakpoint($large) {
+		padding: 0;
+	}
+}
+
+#notes, #acknowledgements {
+	@include breakpoint($large) {
+		float: left;
+		max-width: 500px;
+	}
+}
+
+#notes {
+	@include breakpoint($large) {
+		margin-right: 24px;
+	}
+}

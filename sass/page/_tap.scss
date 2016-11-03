@@ -1,0 +1,9 @@
+#tap {
+	font-size: 12px;
+	font-size: .75rem;
+	text-align: center;
+
+	@include breakpoint($medium) {
+		display: none;
+	}
+}

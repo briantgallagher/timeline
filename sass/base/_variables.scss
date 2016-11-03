@@ -1,0 +1,14 @@
+/*	variables - general use
+	========================================================================== */
+
+$teams: 20;			//highest number of teams in league
+$max-width: 1900;	//maximum width of the content (in px)
+
+
+/*	compute .table-list > li sizes
+	========================================================================== */
+// width of each li: (100% - (teams + year column)) / (teams + year column) -- subtract 1% margins and divide remainder by number of squares needed, all squares have a right margin
+$li-width: (100-($teams + 1)) / ($teams + 1);
+
+// old example (19 teams): 1900 * .04 = 76px -- max-width of #container determines maximum height
+$max-height: $max-width * ($li-width / 100);

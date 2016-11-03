@@ -1,0 +1,52 @@
+/* ==========================================================================
+   Individual sizing fixes / item overrides
+   ========================================================================== */
+
+.table-list[data-year="2000"] .sporting-kansas-city span, .table-list[data-year="2007"] .new-england-revolution span {
+	@media all and (min-width: $small) and (max-width: 540px) {
+		padding-top: 14px;
+		padding-top: .875rem;
+	}
+
+	@media all and (min-width: $small) and (max-width: 370px) {
+		font-size: 12px;
+		font-size: .75rem;
+	}
+
+	@media all and (min-width: 370px) and (max-width: 540px) {
+		font-size: 13px;
+		font-size: .8125rem;
+	}
+}
+
+.table-list[data-year="2007"] .new-england-revolution span {
+	@media all and (min-width: 620px) and (max-width: 635px) {
+		padding-top: 14px;
+		padding-top: .875rem;
+		font-size: 14px;
+		font-size: .875rem;
+	}
+}
+
+.table-list .new-england-revolution span,
+.table-list[data-year="2012"] .san-jose-earthquakes span,
+.table-list[data-year="2012"] .sporting-kansas-city span,
+.table-list[data-year="2015"] .sporting-kansas-city span,
+.table-list[data-year="2015"] .vancouver-whitecaps span {
+	@media all and (min-width: $small) and (max-width: 385px) {
+		padding-top: 14px;
+		padding-top: .875rem;
+		font-size: 14px;
+		font-size: .875rem;
+	}
+}
+
+
+.table-list[data-year="2015"] .vancouver-whitecaps span {
+	@media all and (min-width: 520px) and (max-width: 525px) {
+		padding-top: 14px;
+		padding-top: .875rem;
+		font-size: 14px;
+		font-size: .875rem;
+	}
+}

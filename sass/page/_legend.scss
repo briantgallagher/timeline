@@ -1,0 +1,64 @@
+/*	#legend - displays icon/trophy legend before table list
+	========================================================================== */
+
+#legend {
+	overflow: hidden;
+	padding: 16px 0;
+	padding: 1rem 0;
+	border-top: 1px solid lighten(#4D4D4D, 10%);
+	border-bottom: 1px solid darken(#4D4D4D, 10%);
+	background-color: #4D4D4D;
+
+	@include breakpoint($large) {
+		padding: 1vw 0;
+	}
+
+	p {
+		margin: 0;
+		text-align: center;
+	}
+
+	span {
+		@media all and (max-width: 700px) {
+			display: inline-block;
+			float: left;
+			width: 50%;
+
+			&:nth-child(1), &:nth-child(2) {
+				margin-bottom: 12px;
+				margin-bottom: .75rem;
+			}
+		}
+
+		@include breakpoint(701px) {
+			margin-right: 32px;
+			margin-right: 2rem;
+		}
+
+		&:last-child {
+			margin-right: 0;
+		}
+
+		&:before {
+			margin: 8px 4px 0 0;
+			margin: .5rem .25rem 0 0;
+			font-family: $font-mls;				
+		}
+
+		&.mls-cup:before {
+			content: "#{$char-mls-cup}";
+		}
+
+		&.open-cup:before {
+			content: "#{$char-open-cup}";
+		}
+
+		&.supporters-shield:before {
+			content: "#{$char-supporters-shield}";
+		}
+
+		&.voyageurs-cup:before {
+			content: "#{$char-voyageurs-cup}";
+		}
+	}
+}
