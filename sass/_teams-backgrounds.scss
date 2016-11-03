@@ -75,7 +75,7 @@
 
 @mixin team-bg($src, $pos-square, $pos-rectangle) {
 	&:after {
-		background-image: url('../images/svg/#{$src}.svg');
+		background-image: url('/timeline2015/images/svg/#{$src}.svg');
 		background-position: $pos-square;
 
 		@media all and (min-width: 620px) and (max-width: 1024px) {
@@ -138,7 +138,14 @@
 	/* D.C. United
 	========================================================================== */
 	.dc-united {
-		@include team-bg('dc-united', 20% -10%, 0 52%);
+		@include team-bg('dc-united', -2% -4%, 0 30%);
+	}
+
+	// 1998-2015
+	@for $i from 1998 through 2015 {
+		&[data-year="#{$i}"] .dc-united {
+			@include team-bg('dc-united-1998-2015', 20% -10%, 0 52%);
+		}
 	}
 
 	// 1996-1997
@@ -247,10 +254,8 @@
 			}
 
 			&:hover {
-				@media all and (min-width: $large) {
-					&:after {
-						background-size: 170%;
-					}	
+				&:after {
+					background-size: 170%;
 				}
 			}
 		}
