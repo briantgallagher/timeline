@@ -82,7 +82,7 @@
 
 					<div id="acknowledgements">
 						<h3>Acknowledgements:</h3>
-						<p>During the course of building this timeline, several sites proved to be invaluable resources.  My sincere thanks are extended to <a href="http://www.sportslogos.net/teams/list_by_league/9/Major_League_Soccer/MLS/logos/" class="blank">SportsLogos.net</a>, <a href="http://www.colorwerx.net/team-colors/soccer/major-league-soccer-1996-through-present/" class="blank">Colorwerx</a>, <a href="http://www.mlsarchives.com/">MLS Archives</a> and <a href="http://homepages.sover.net/~spectrum/" class="blank">The American Soccer History Archives</a>.  Without these references, this project would been much more difficult or much less complete.</p>
+						<p>During the course of building this timeline, several sites proved to be invaluable resources.  My sincere thanks are extended to <a href="http://www.sportslogos.net/teams/list_by_league/9/Major_League_Soccer/MLS/logos/" class="blank">SportsLogos.net</a>, <a href="http://www.colorwerx.net/team-colors/soccer/major-league-soccer-1996-through-present/" class="blank">Colorwerx</a>, <a href="http://www.mlsarchives.com/">MLS Archives</a> and <a href="http://homepages.sover.net/~spectrum/" class="blank">The American Soccer History Archives</a>.  Without these references, this project would have been much more difficult or much less complete.</p>
 					</div>
 				</div>
 			</section>
