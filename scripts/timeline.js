@@ -145,11 +145,26 @@ function get_ordinal(number) {
     return number + "th";
 }
 
+// Large size - adds "Playoffs, " to expanded statistics string if team li has playoffs class
+function get_playoffs(clicked) {
+
+	var playoffs = "";
+
+	if($(clicked).attr('class').indexOf("playoffs") > -1) {
+		playoffs += "Playoffs, ";
+	}
+
+	return playoffs;
+}
+
 
 // Large size - returns string with team's position in table and position in conference for a given year
 function get_position(clicked) {
 	var team = get_team($(clicked).attr('class'));
 	var position_string = "";
+
+	position_string = get_playoffs(clicked);
+
 	var conference = get_conference($(clicked).attr('class'));
 	var position_in_table = $(clicked).index() + 1;
 	var position_in_conference = $(clicked).siblings("." + conference).addBack().index(clicked) + 1;
@@ -310,14 +325,12 @@ function set_expanded(clicked) {
 // Large size - set attributes for zoom icon and background color animation
 // .zoom div is removed via the reset_zoom function
 // width and height assigned with ceil() function to account for browser subpixel rendering of vw measurements
-function set_zoom(clicked, attributes) {
+function set_zoom(clicked, attributes) {	
 	$(clicked).prepend('<div class="zoom"></div>');
 	$('.zoom').css({
 		'color' : attributes['text_color'],
 		'background-color' : attributes['background_color'],
-		'text-shadow' : attributes['text_shadow'] + ', ' + attributes['text_shadow'].replace('1px 1px', '2px 2px') + ', ' + attributes['text_shadow'].replace('1px 1px', '3px 3px'),
-		'width' : Math.ceil($('.table-list > li')[0].getBoundingClientRect().width) + 'px',
-		'height' : Math.ceil($('.table-list > li')[0].getBoundingClientRect().height) + 'px'
+		'text-shadow' : attributes['text_shadow'] + ', ' + attributes['text_shadow'].replace('1px 1px', '2px 2px') + ', ' + attributes['text_shadow'].replace('1px 1px', '3px 3px')
 	});
 }
 

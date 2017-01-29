@@ -1,5 +1,5 @@
 			<ol class="table-list" data-year="2006">
-				<li class="dc-united eastern">
+				<li class="dc-united eastern playoffs">
 					<span class="supporters-shield">D.C. United</span>
 					<ul class="stats">
 						<li class="p">55</li>
@@ -10,7 +10,7 @@
 					</ul>
 				</li>
 
-				<li class="fc-dallas western">
+				<li class="fc-dallas western playoffs">
 					<span>FC Dallas</span>
 					<ul class="stats">
 						<li class="p">52</li>
@@ -21,7 +21,7 @@
 					</ul>
 				</li>
 
-				<li class="new-england-revolution eastern">
+				<li class="new-england-revolution eastern playoffs">
 					<span>New England Revolution</span>
 					<ul class="stats">
 						<li class="p">44</li>
@@ -32,7 +32,7 @@
 					</ul>
 				</li>
 
-				<li class="chicago-fire eastern">
+				<li class="chicago-fire eastern playoffs">
 					<span class="open-cup">Chicago Fire</span>
 					<ul class="stats">
 						<li class="p">47</li>
@@ -43,7 +43,7 @@
 					</ul>
 				</li>
 
-				<li class="houston-dynamo western">
+				<li class="houston-dynamo western playoffs">
 					<span class="mls-cup">Houston Dynamo</span>
 					<ul class="stats">
 						<li class="p">46</li>
@@ -54,7 +54,7 @@
 					</ul>
 				</li>
 
-				<li class="chivas-usa western">
+				<li class="chivas-usa western playoffs">
 					<span>Chivas USA</span>
 					<ul class="stats">
 						<li class="p">43</li>
@@ -65,7 +65,7 @@
 					</ul>
 				</li>
 
-				<li class="colorado-rapids western">
+				<li class="colorado-rapids western playoffs">
 					<span>Colorado Rapids</span>
 					<ul class="stats">
 						<li class="p">41</li>
@@ -76,7 +76,7 @@
 					</ul>
 				</li>
 
-				<li class="new-york-red-bulls eastern">
+				<li class="new-york-red-bulls eastern playoffs">
 					<span>New York Red Bulls</span>
 					<ul class="stats">
 						<li class="p">39</li>

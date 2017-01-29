@@ -1,5 +1,5 @@
 			<ol class="table-list" data-year="2013">
-				<li class="new-york-red-bulls eastern">
+				<li class="new-york-red-bulls eastern playoffs">
 					<span class="supporters-shield">New York Red Bulls</span>
 					<ul class="stats">
 						<li class="p">59</li>
@@ -10,7 +10,7 @@
 					</ul>
 				</li>
 
-				<li class="sporting-kansas-city eastern">
+				<li class="sporting-kansas-city eastern playoffs">
 					<span class="mls-cup">Sporting Kansas City</span>
 					<ul class="stats">
 						<li class="p">58</li>
@@ -21,7 +21,7 @@
 					</ul>
 				</li>
 
-				<li class="portland-timbers western">
+				<li class="portland-timbers western playoffs">
 					<span>Portland Timbers</span>
 					<ul class="stats">
 						<li class="p">57</li>
@@ -32,7 +32,7 @@
 					</ul>
 				</li>
 
-				<li class="real-salt-lake western">
+				<li class="real-salt-lake western playoffs">
 					<span>Real Salt Lake</span>
 					<ul class="stats">
 						<li class="p">56</li>
@@ -43,7 +43,7 @@
 					</ul>
 				</li>
 
-				<li class="la-galaxy western">
+				<li class="la-galaxy western playoffs">
 					<span>LA Galaxy</span>
 					<ul class="stats">
 						<li class="p">53</li>
@@ -54,7 +54,7 @@
 					</ul>
 				</li>
 
-				<li class="seattle-sounders western">
+				<li class="seattle-sounders western playoffs">
 					<span>Seattle Sounders</span>
 					<ul class="stats">
 						<li class="p">52</li>
@@ -65,7 +65,7 @@
 					</ul>
 				</li>
 
-				<li class="new-england-revolution eastern">
+				<li class="new-england-revolution eastern playoffs">
 					<span>New England Revolution</span>
 					<ul class="stats">
 						<li class="p">51</li>
@@ -76,7 +76,7 @@
 					</ul>
 				</li>
 
-				<li class="colorado-rapids western">
+				<li class="colorado-rapids western playoffs">
 					<span>Colorado Rapids</span>
 					<ul class="stats">
 						<li class="p">51</li>
@@ -87,7 +87,7 @@
 					</ul>
 				</li>
 
-				<li class="houston-dynamo eastern">
+				<li class="houston-dynamo eastern playoffs">
 					<span>Houston Dynamo</span>
 					<ul class="stats">
 						<li class="p">51</li>
@@ -109,7 +109,7 @@
 					</ul>
 				</li>
 
-				<li class="impact-montreal eastern">
+				<li class="impact-montreal eastern playoffs">
 					<span class="voyageurs-cup">Montreal Impact</span>
 					<ul class="stats">
 						<li class="p">49</li>

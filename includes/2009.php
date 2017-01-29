@@ -1,5 +1,5 @@
 			<ol class="table-list" data-year="2009">
-				<li class="columbus-crew eastern">
+				<li class="columbus-crew eastern playoffs">
 					<span class="supporters-shield">Columbus Crew</span>
 					<ul class="stats">
 						<li class="p">49</li>
@@ -10,7 +10,7 @@
 					</ul>
 				</li>
 
-				<li class="la-galaxy western">
+				<li class="la-galaxy western playoffs">
 					<span>LA Galaxy</span>
 					<ul class="stats">
 						<li class="p">48</li>
@@ -21,7 +21,7 @@
 					</ul>
 				</li>
 
-				<li class="houston-dynamo western">
+				<li class="houston-dynamo western playoffs">
 					<span>Houston Dynamo</span>
 					<ul class="stats">
 						<li class="p">48</li>
@@ -32,7 +32,7 @@
 					</ul>
 				</li>
 
-				<li class="seattle-sounders western">
+				<li class="seattle-sounders western playoffs">
 					<span class="open-cup">Seattle Sounders</span>
 					<ul class="stats">
 						<li class="p">47</li>
@@ -43,7 +43,7 @@
 					</ul>
 				</li>
 
-				<li class="chicago-fire eastern">
+				<li class="chicago-fire eastern playoffs">
 					<span>Chicago Fire</span>
 					<ul class="stats">
 						<li class="p">45</li>
@@ -54,7 +54,7 @@
 					</ul>
 				</li>
 
-				<li class="chivas-usa western">
+				<li class="chivas-usa western playoffs">
 					<span>Chivas USA</span>
 					<ul class="stats">
 						<li class="p">45</li>
@@ -65,7 +65,7 @@
 					</ul>
 				</li>
 
-				<li class="new-england-revolution eastern">
+				<li class="new-england-revolution eastern playoffs">
 					<span>New England Revolution</span>
 					<ul class="stats">
 						<li class="p">42</li>
@@ -76,7 +76,7 @@
 					</ul>
 				</li>
 
-				<li class="real-salt-lake western">
+				<li class="real-salt-lake western playoffs">
 					<span class="mls-cup">Real Salt Lake</span>
 					<ul class="stats">
 						<li class="p">40</li>

@@ -13,7 +13,7 @@
 	@include breakpoint($large) {
 		display: block;
 		padding: 12px 0;
-		padding: .75rem 0;
+		padding: .875rem 0;
 		transition: all 0.4s ease-out;
 	}
 
@@ -36,6 +36,7 @@
 			margin-right: 1%;
 			font-size: 1.1vw;
 			text-align: center;
+			text-shadow: 1px 1px 3px #000000;
 			content: attr(data-year);
 		}
 	}
@@ -47,7 +48,6 @@
 		padding: 0;
 		border: none;
 	}
-
 
 	/* .table-list > li - table list's direct child <li>s
 	   ========================================================================== */
@@ -141,6 +141,10 @@
 			@extend %hidden-li;
 		}
 
+		&.hidden > span {
+			display: none;
+		}
+
 		/* .table-list > li span - contains team name and applicable trophies
 	   ========================================================================== */
 		span {
@@ -172,7 +176,7 @@
 
 			/* .table-list > li span:after - trophy icon as :after element
 	  		 ========================================================================== */
-			&:after{
+			&:after {
 				display: inline-block;
 				float: right;
 				margin: 3px 0 0 8px;
@@ -245,31 +249,62 @@
 			}
 		}
 
+		/* .table-list > li.playoffs span:before - playoffs mark as :before element
+	  		 ========================================================================== */
+		&.playoffs span:before {
+			position: absolute;
+			top: 0;
+			left: 0;
+			display: inline-block;
+			font-family: $font-mls;
+			font-size: 8px;
+			font-size: .5rem;
+			content: "#{$char-triangle-upper}";
+
+			@include breakpoint($large) {
+				top: auto;
+				bottom: -8px;
+				bottom: -.5rem;
+				display: block;
+				width: 100%;
+				height: 3px;
+				height: .1875rem;
+				background-color: inherit;
+				opacity: .75;
+				content: '';
+			}
+		}
+
 		@include breakpoint($large) {
 			/* .table-list > li .zoom - large size - magnifying glass for selected year/team
  	  		========================================================================== */
 			.zoom {
 				position: absolute;
 				z-index: 10;
-				bottom: 0;
 				right: 0;
-				display: table;
+				bottom: 0;
+				display: -webkit-flex;
+				display: flex;
+				-webkit-align-items: center;
+				align-items: center;
+				-webkit-justify-content: center;
+				justify-content: center;
+				width: 100%;
+				height: 100%;
 				background-color: inherit;
 				color: inherit;
 
 				&:after {
-					z-index: 9;					
-					width: 100%;
-					height: 100%;
-					display: block;
-					vertical-align: middle;
-					background-color: inherit;
+					// z-index: 9;
+					// display: block;
+					// vertical-align: middle;
+					// background-color: inherit;
 					color: inherit;
 					font-family: 'MLS';
 					font-size: 2vw;
-					line-height: 4vw;
+					// line-height: 4vw;
 					text-shadow: inherit;
-					text-align: center;
+					// text-align: center;
 					content: "#{$char-zoom}";
 				}
 

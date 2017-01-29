@@ -1,5 +1,5 @@
 			<ol class="table-list current" data-year="2016">
-				<li class="fc-dallas western">
+				<li class="fc-dallas western playoffs">
 					<span class="supporters-shield open-cup">FC Dallas</span>
 					<ul class="stats">
 						<li class="p">60</li>
@@ -10,7 +10,7 @@
 					</ul>
 				</li>
 
-				<li class="colorado-rapids western">
+				<li class="colorado-rapids western playoffs">
 					<span>Colorado Rapids</span>
 					<ul class="stats">
 						<li class="p">58</li>
@@ -21,7 +21,7 @@
 					</ul>
 				</li>
 
-				<li class="new-york-red-bulls eastern">
+				<li class="new-york-red-bulls eastern playoffs">
 					<span>New York Red Bulls</span>
 					<ul class="stats">
 						<li class="p">57</li>
@@ -32,7 +32,7 @@
 					</ul>
 				</li>
 
-				<li class="new-york-city-fc eastern">
+				<li class="new-york-city-fc eastern playoffs">
 					<span>New York City FC</span>
 					<ul class="stats">
 						<li class="p">54</li>
@@ -43,7 +43,7 @@
 					</ul>
 				</li>
 
-				<li class="toronto-fc eastern">
+				<li class="toronto-fc eastern playoffs">
 					<span class="voyageurs-cup">Toronto FC</span>
 					<ul class="stats">
 						<li class="p">53</li>
@@ -54,7 +54,7 @@
 					</ul>
 				</li>
 
-				<li class="la-galaxy western">
+				<li class="la-galaxy western playoffs">
 					<span>LA Galaxy</span>
 					<ul class="stats">
 						<li class="p">52</li>
@@ -65,8 +65,8 @@
 					</ul>
 				</li>
 
-				<li class="seattle-sounders western">
-					<span>Seattle Sounders</span>
+				<li class="seattle-sounders western playoffs">
+					<span class="mls-cup">Seattle Sounders</span>
 					<ul class="stats">
 						<li class="p">48</li>
 						<li class="gd">1</li>
@@ -76,7 +76,7 @@
 					</ul>
 				</li>
 
-				<li class="sporting-kansas-city western">
+				<li class="sporting-kansas-city western playoffs">
 					<span>Sporting Kansas City</span>
 					<ul class="stats">
 						<li class="p">47</li>
@@ -87,7 +87,7 @@
 					</ul>
 				</li>
 
-				<li class="real-salt-lake western">
+				<li class="real-salt-lake western playoffs">
 					<span>Real Salt Lake</span>
 					<ul class="stats">
 						<li class="p">46</li>
@@ -98,7 +98,7 @@
 					</ul>
 				</li>
 
-				<li class="dc-united eastern">
+				<li class="dc-united eastern playoffs">
 					<span>D.C. United</span>
 					<ul class="stats">
 						<li class="p">46</li>
@@ -109,7 +109,7 @@
 					</ul>
 				</li>
 
-				<li class="impact-montreal eastern">
+				<li class="impact-montreal eastern playoffs">
 					<span>Montreal Impact</span>
 					<ul class="stats">
 						<li class="p">45</li>
@@ -121,7 +121,7 @@
 				</li>
 
 				<li class="portland-timbers western">
-					<span class="mls-cup">Portland Timbers</span>
+					<span>Portland Timbers</span>
 					<ul class="stats">
 						<li class="p">44</li>
 						<li class="gd">-5</li>
@@ -131,7 +131,7 @@
 					</ul>
 				</li>
 
-				<li class="philadelphia-union eastern">
+				<li class="philadelphia-union eastern playoffs">
 					<span>Philadelphia Union</span>
 					<ul class="stats">
 						<li class="p">42</li>

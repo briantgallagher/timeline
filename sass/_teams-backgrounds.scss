@@ -75,7 +75,7 @@
 
 @mixin team-bg($src, $pos-square, $pos-rectangle) {
 	&:after {
-		background-image: url('/timeline2015/images/svg/#{$src}.svg');
+		background-image: url('/images/svg/#{$src}.svg');
 		background-position: $pos-square;
 
 		@media all and (min-width: 620px) and (max-width: 1024px) {

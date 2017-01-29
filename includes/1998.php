@@ -1,5 +1,5 @@
 			<ol class="table-list" data-year="1998">
-				<li class="la-galaxy western">
+				<li class="la-galaxy western playoffs">
 					<span class="supporters-shield">LA Galaxy</span>
 					<ul class="stats">
 						<li class="p">68</li>
@@ -9,7 +9,7 @@
 					</ul>
 				</li>
 
-				<li class="dc-united eastern">
+				<li class="dc-united eastern playoffs">
 					<span>D.C. United</span>
 					<ul class="stats">
 						<li class="p">58</li>
@@ -19,7 +19,7 @@
 					</ul>
 				</li>
 
-				<li class="chicago-fire western">
+				<li class="chicago-fire western playoffs">
 					<span class="mls-cup open-cup">Chicago Fire</span>
 					<ul class="stats">
 						<li class="p">56</li>
@@ -29,7 +29,7 @@
 					</ul>
 				</li>
 
-				<li class="columbus-crew eastern">
+				<li class="columbus-crew eastern playoffs">
 					<span>Columbus Crew</span>
 					<ul class="stats">
 						<li class="p">45</li>
@@ -39,7 +39,7 @@
 					</ul>
 				</li>
 
-				<li class="colorado-rapids western">
+				<li class="colorado-rapids western playoffs">
 					<span>Colorado Rapids</span>
 					<ul class="stats">
 						<li class="p">44</li>
@@ -49,7 +49,7 @@
 					</ul>
 				</li>
 
-				<li class="new-york-red-bulls eastern">
+				<li class="new-york-red-bulls eastern playoffs">
 					<span>MetroStars</span>
 					<ul class="stats">
 						<li class="p">39</li>
@@ -59,7 +59,7 @@
 					</ul>
 				</li>
 
-				<li class="fc-dallas western">
+				<li class="fc-dallas western playoffs">
 					<span>Dallas Burn</span>
 					<ul class="stats">
 						<li class="p">37</li>
@@ -69,7 +69,7 @@
 					</ul>
 				</li>
 
-				<li class="miami-fusion eastern">
+				<li class="miami-fusion eastern playoffs">
 					<span>Miami Fusion</span>
 					<ul class="stats">
 						<li class="p">35</li>

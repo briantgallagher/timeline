@@ -1,5 +1,5 @@
 			<ol class="table-list" data-year="2014">
-				<li class="seattle-sounders western">
+				<li class="seattle-sounders western playoffs">
 					<span class="supporters-shield open-cup">Seattle Sounders</span>
 					<ul class="stats">
 						<li class="p">64</li>
@@ -9,7 +9,7 @@
 						<li class="d">4</li>
 					</ul>
 				</li>
-				<li class="la-galaxy western">
+				<li class="la-galaxy western playoffs">
 					<span class="mls-cup">LA Galaxy</span>
 					<ul class="stats">
 						<li class="p">61</li>
@@ -19,7 +19,7 @@
 						<li class="d">10</li>
 					</ul>
 				</li>
-				<li class="dc-united eastern">				
+				<li class="dc-united eastern playoffs">				
 					<span>D.C. United</span>
 					<ul class="stats">
 						<li class="p">59</li>
@@ -29,7 +29,7 @@
 						<li class="d">8</li>
 					</ul>
 				</li>
-				<li class="real-salt-lake western">
+				<li class="real-salt-lake western playoffs">
 					<span>Real Salt Lake</span>
 					<ul class="stats">
 						<li class="p">56</li>
@@ -39,7 +39,7 @@
 						<li class="d">11</li>
 					</ul>
 				</li>
-				<li class="new-england-revolution eastern">
+				<li class="new-england-revolution eastern playoffs">
 					<span>New England Revolution</span>
 					<ul class="stats">
 						<li class="p">55</li>
@@ -49,7 +49,7 @@
 						<li class="d">4</li>
 					</ul>
 				</li>
-				<li class="fc-dallas western">
+				<li class="fc-dallas western playoffs">
 					<span>FC Dallas</span>
 					<ul class="stats">
 						<li class="p">54</li>
@@ -59,7 +59,7 @@
 						<li class="d">6</li>
 					</ul>
 				</li>
-				<li class="columbus-crew eastern">
+				<li class="columbus-crew eastern playoffs">
 					<span>Columbus Crew</span>
 					<ul class="stats">
 						<li class="p">52</li>
@@ -69,7 +69,7 @@
 						<li class="d">10</li>
 					</ul>
 				</li>
-				<li class="new-york-red-bulls eastern">
+				<li class="new-york-red-bulls eastern playoffs">
 					<span>New York Red Bulls</span>
 					<ul class="stats">
 						<li class="p">50</li>
@@ -79,7 +79,7 @@
 						<li class="d">11</li>
 					</ul>
 				</li>
-				<li class="vancouver-whitecaps western">
+				<li class="vancouver-whitecaps western playoffs">
 					<span>Vancouver Whitecaps</span>
 					<ul class="stats">
 						<li class="p">50</li>
@@ -89,7 +89,7 @@
 						<li class="d">14</li>
 					</ul>
 				</li>
-				<li class="sporting-kansas-city eastern">
+				<li class="sporting-kansas-city eastern playoffs">
 					<span>Sporting Kansas City</span>
 					<ul class="stats">
 						<li class="p">49</li>

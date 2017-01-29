@@ -1,6 +1,6 @@
 			<!-- http://homepages.sover.net/~spectrum/year/1997.html#MLS -->
 			<ol class="table-list" data-year="1997">
-				<li class="dc-united eastern">
+				<li class="dc-united eastern playoffs">
 					<span class="mls-cup supporters-shield">D.C. United</span>
 					<ul class="stats">
 						<li class="p">55</li>
@@ -10,7 +10,7 @@
 					</ul>
 				</li>
 
-				<li class="sporting-kansas-city western">
+				<li class="sporting-kansas-city western playoffs">
 					<span>Kansas City Wizards</span>
 					<ul class="stats">
 						<li class="p">49</li>
@@ -20,7 +20,7 @@
 					</ul>
 				</li>
 
-				<li class="tampa-bay-mutiny eastern">
+				<li class="tampa-bay-mutiny eastern playoffs">
 					<span>Tampa Bay Mutiny</span>
 					<ul class="stats">
 						<li class="p">45</li>
@@ -30,7 +30,7 @@
 					</ul>
 				</li>
 
-				<li class="la-galaxy western">
+				<li class="la-galaxy western playoffs">
 					<span>LA Galaxy</span>
 					<ul class="stats">
 						<li class="p">44</li>
@@ -40,7 +40,7 @@
 					</ul>
 				</li>
 
-				<li class="fc-dallas western">
+				<li class="fc-dallas western playoffs">
 					<span class="open-cup">Dallas Burn</span>
 					<ul class="stats">
 						<li class="p">42</li>
@@ -50,7 +50,7 @@
 					</ul>
 				</li>
 
-				<li class="columbus-crew eastern">
+				<li class="columbus-crew eastern playoffs">
 					<span>Columbus Crew</span>
 					<ul class="stats">
 						<li class="p">39</li>
@@ -60,7 +60,7 @@
 					</ul>
 				</li>
 
-				<li class="colorado-rapids western">
+				<li class="colorado-rapids western playoffs">
 					<span>Colorado Rapids</span>
 					<ul class="stats">
 						<li class="p">38</li>
@@ -70,7 +70,7 @@
 					</ul>
 				</li>
 
-				<li class="new-england-revolution eastern">
+				<li class="new-england-revolution eastern playoffs">
 					<span>New England Revolution</span>
 					<ul class="stats">
 						<li class="p">37</li>

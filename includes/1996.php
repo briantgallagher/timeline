@@ -1,6 +1,6 @@
 			<!-- http://homepages.sover.net/~spectrum/year/1996.html#MLS -->
 			<ol class="table-list" data-year="1996">
-				<li class="tampa-bay-mutiny eastern">
+				<li class="tampa-bay-mutiny eastern playoffs">
 					<span class="supporters-shield">Tampa Bay Mutiny</span>
 					<ul class="stats">
 						<li class="p">58</li>
@@ -10,7 +10,7 @@
 					</ul>
 				</li>
 
-				<li class="la-galaxy western">
+				<li class="la-galaxy western playoffs">
 					<span>LA Galaxy</span>
 					<ul class="stats">
 						<li class="p">49</li>
@@ -20,7 +20,7 @@
 					</ul>
 				</li>
 
-				<li class="dc-united eastern">
+				<li class="dc-united eastern playoffs">
 					<span class="mls-cup open-cup">D.C. United</span>
 					<ul class="stats">
 						<li class="p">46</li>
@@ -30,7 +30,7 @@
 					</ul>
 				</li>
 
-				<li class="fc-dallas western">
+				<li class="fc-dallas western playoffs">
 					<span>Dallas Burn</span>
 					<ul class="stats">
 						<li class="p">41</li>
@@ -40,7 +40,7 @@
 					</ul>
 				</li>
 
-				<li class="sporting-kansas-city western">
+				<li class="sporting-kansas-city western playoffs">
 					<span>Kansas City Wiz</span>
 					<ul class="stats">
 						<li class="p">41</li>
@@ -50,7 +50,7 @@
 					</ul>
 				</li>
 
-				<li class="san-jose-earthquakes western">
+				<li class="san-jose-earthquakes western playoffs">
 					<span>San Jose Clash</span>
 					<ul class="stats">
 						<li class="p">39</li>
@@ -60,7 +60,7 @@
 					</ul>
 				</li>
 
-				<li class="new-york-red-bulls eastern">
+				<li class="new-york-red-bulls eastern playoffs">
 					<span>NY/NJ MetroStars</span>
 					<ul class="stats">
 						<li class="p">39</li>
@@ -70,7 +70,7 @@
 					</ul>
 				</li>
 
-				<li class="columbus-crew eastern">
+				<li class="columbus-crew eastern playoffs">
 					<span>Columbus Crew</span>
 					<ul class="stats">
 						<li class="p">37</li>

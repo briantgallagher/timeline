@@ -1,5 +1,5 @@
 			<ol class="table-list" data-year="2010">
-				<li class="la-galaxy western">
+				<li class="la-galaxy western playoffs">
 					<span class="supporters-shield">LA Galaxy</span>
 					<ul class="stats">
 						<li class="p">59</li>
@@ -10,7 +10,7 @@
 					</ul>
 				</li>
 
-				<li class="real-salt-lake western">
+				<li class="real-salt-lake western playoffs">
 					<span>Real Salt Lake</span>
 					<ul class="stats">
 						<li class="p">56</li>
@@ -21,7 +21,7 @@
 					</ul>
 				</li>
 
-				<li class="new-york-red-bulls eastern">
+				<li class="new-york-red-bulls eastern playoffs">
 					<span>New York Red Bulls</span>
 					<ul class="stats">
 						<li class="p">51</li>
@@ -32,7 +32,7 @@
 					</ul>
 				</li>
 
-				<li class="fc-dallas western">
+				<li class="fc-dallas western playoffs">
 					<span>FC Dallas</span>
 					<ul class="stats">
 						<li class="p">50</li>
@@ -43,7 +43,7 @@
 					</ul>
 				</li>
 
-				<li class="columbus-crew eastern">
+				<li class="columbus-crew eastern playoffs">
 					<span>Columbus Crew</span>
 					<ul class="stats">
 						<li class="p">50</li>
@@ -54,7 +54,7 @@
 					</ul>
 				</li>
 
-				<li class="seattle-sounders western">
+				<li class="seattle-sounders western playoffs">
 					<span class="open-cup">Seattle Sounders</span>
 					<ul class="stats">
 						<li class="p">48</li>
@@ -65,7 +65,7 @@
 					</ul>
 				</li>
 
-				<li class="colorado-rapids western">
+				<li class="colorado-rapids western playoffs">
 					<span class="mls-cup">Colorado Rapids</span>
 					<ul class="stats">
 						<li class="p">46</li>
@@ -76,7 +76,7 @@
 					</ul>
 				</li>
 
-				<li class="san-jose-earthquakes western">
+				<li class="san-jose-earthquakes western playoffs">
 					<span>San Jose Earthquakes</span>
 					<ul class="stats">
 						<li class="p">46</li>

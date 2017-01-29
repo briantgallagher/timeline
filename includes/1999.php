@@ -1,5 +1,5 @@
 			<ol class="table-list" data-year="1999">
-				<li class="dc-united eastern">
+				<li class="dc-united eastern playoffs">
 					<span class="mls-cup supporters-shield">D.C. United</span>
 					<ul class="stats">
 						<li class="p">57</li>
@@ -9,7 +9,7 @@
 					</ul>
 				</li>
 
-				<li class="la-galaxy western">
+				<li class="la-galaxy western playoffs">
 					<span>LA Galaxy</span>
 					<ul class="stats">
 						<li class="p">54</li>
@@ -19,7 +19,7 @@
 					</ul>
 				</li>
 
-				<li class="fc-dallas western">
+				<li class="fc-dallas western playoffs">
 					<span>Dallas Burn</span>
 					<ul class="stats">
 						<li class="p">51</li>
@@ -29,7 +29,7 @@
 					</ul>
 				</li>
 
-				<li class="chicago-fire western">
+				<li class="chicago-fire western playoffs">
 					<span>Chicago Fire</span>
 					<ul class="stats">
 						<li class="p">48</li>
@@ -39,7 +39,7 @@
 					</ul>
 				</li>
 
-				<li class="colorado-rapids western">
+				<li class="colorado-rapids western playoffs">
 					<span>Colorado Rapids</span>
 					<ul class="stats">
 						<li class="p">48</li>
@@ -49,7 +49,7 @@
 					</ul>
 				</li>
 
-				<li class="columbus-crew eastern">
+				<li class="columbus-crew eastern playoffs">
 					<span>Columbus Crew</span>
 					<ul class="stats">
 						<li class="p">45</li>
@@ -69,7 +69,7 @@
 					</ul>
 				</li>
 
-				<li class="tampa-bay-mutiny eastern">
+				<li class="tampa-bay-mutiny eastern playoffs">
 					<span>Tampa Bay Mutiny</span>
 					<ul class="stats">
 						<li class="p">32</li>
@@ -79,7 +79,7 @@
 					</ul>
 				</li>
 
-				<li class="miami-fusion eastern">
+				<li class="miami-fusion eastern playoffs">
 					<span>Miami Fusion</span>
 					<ul class="stats">
 						<li class="p">29</li>

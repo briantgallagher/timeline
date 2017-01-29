@@ -1,6 +1,6 @@
 			<!-- Tiebreaker: Goals For -->
 			<ol class="table-list" data-year="2003">
-				<li class="chicago-fire eastern">
+				<li class="chicago-fire eastern playoffs">
 					<span class="supporters-shield open-cup">Chicago Fire</span>
 					<ul class="stats">
 						<li class="p">53</li>
@@ -11,7 +11,7 @@
 					</ul>
 				</li>
 
-				<li class="san-jose-earthquakes western">
+				<li class="san-jose-earthquakes western playoffs">
 					<span class="mls-cup">San Jose Earthquakes</span>
 					<ul class="stats">
 						<li class="p">51</li>
@@ -22,7 +22,7 @@
 					</ul>
 				</li>
 
-				<li class="new-england-revolution eastern">
+				<li class="new-england-revolution eastern playoffs">
 					<span>New England Revolution</span>
 					<ul class="stats">
 						<li class="p">45</li>
@@ -33,7 +33,7 @@
 					</ul>
 				</li>
 
-				<li class="sporting-kansas-city western">
+				<li class="sporting-kansas-city western playoffs">
 					<span>Kansas City Wizards</span>
 					<ul class="stats">
 						<li class="p">42</li>
@@ -44,7 +44,7 @@
 					</ul>
 				</li>
 
-				<li class="new-york-red-bulls eastern">
+				<li class="new-york-red-bulls eastern playoffs">
 					<span>MetroStars</span>
 					<ul class="stats">
 						<li class="p">42</li>
@@ -55,7 +55,7 @@
 					</ul>
 				</li>
 
-				<li class="colorado-rapids western">
+				<li class="colorado-rapids western playoffs">
 					<span>Colorado Rapids</span>
 					<ul class="stats">
 						<li class="p">40</li>
@@ -66,7 +66,7 @@
 					</ul>
 				</li>
 
-				<li class="dc-united eastern">
+				<li class="dc-united eastern playoffs">
 					<span>D.C. United</span>
 					<ul class="stats">
 						<li class="p">39</li>
@@ -88,7 +88,7 @@
 					</ul>
 				</li>
 
-				<li class="la-galaxy western">
+				<li class="la-galaxy western playoffs">
 					<span>LA Galaxy</span>
 					<ul class="stats">
 						<li class="p">36</li>

@@ -1,6 +1,6 @@
 			<!-- Tiebreaker: Points, Head-to-Head, Goal Difference Goals Scored -->
 			<ol class="table-list" data-year="2000">
-				<li class="sporting-kansas-city western">
+				<li class="sporting-kansas-city western playoffs">
 					<span class="mls-cup supporters-shield">Kansas City Wizards</span>
 					<ul class="stats">
 						<li class="p">57</li>
@@ -11,7 +11,7 @@
 					</ul>
 				</li>
 
-				<li class="chicago-fire central">
+				<li class="chicago-fire central playoffs">
 					<span class="open-cup">Chicago Fire</span>
 					<ul class="stats">
 						<li class="p">57</li>
@@ -22,7 +22,7 @@
 					</ul>
 				</li>
 
-				<li class="new-york-red-bulls eastern">
+				<li class="new-york-red-bulls eastern playoffs">
 					<span>MetroStars</span>
 					<ul class="stats">
 						<li class="p">54</li>
@@ -33,7 +33,7 @@
 					</ul>
 				</li>
 
-				<li class="tampa-bay-mutiny central">
+				<li class="tampa-bay-mutiny central playoffs">
 					<span>Tampa Bay Mutiny</span>
 					<ul class="stats">
 						<li class="p">52</li>
@@ -44,7 +44,7 @@
 					</ul>
 				</li>
 
-				<li class="la-galaxy western">
+				<li class="la-galaxy western playoffs">
 					<span>LA Galaxy</span>
 					<ul class="stats">
 						<li class="p">50</li>
@@ -55,7 +55,7 @@
 					</ul>
 				</li>
 
-				<li class="fc-dallas central">
+				<li class="fc-dallas central playoffs">
 					<span>Dallas Burn</span>
 					<ul class="stats">
 						<li class="p">46</li>
@@ -66,7 +66,7 @@
 					</ul>
 				</li>
 
-				<li class="new-england-revolution eastern">
+				<li class="new-england-revolution eastern playoffs">
 					<span>New England Revolution</span>
 					<ul class="stats">
 						<li class="p">45</li>
@@ -77,7 +77,7 @@
 					</ul>
 				</li>
 
-				<li class="colorado-rapids western">
+				<li class="colorado-rapids western playoffs">
 					<span>Colorado Rapids</span>
 					<ul class="stats">
 						<li class="p">43</li>

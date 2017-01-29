@@ -1,6 +1,6 @@
 			<!-- Tiebreaker: Head-to-Head -->
 			<ol class="table-list" data-year="2001">
-				<li class="miami-fusion eastern">
+				<li class="miami-fusion eastern playoffs">
 					<span class="supporters-shield">Miami Fusion</span>
 					<ul class="stats">
 						<li class="p">53</li>
@@ -11,7 +11,7 @@
 					</ul>
 				</li>
 
-				<li class="chicago-fire central">
+				<li class="chicago-fire central playoffs">
 					<span>Chicago Fire</span>
 					<ul class="stats">
 						<li class="p">53</li>
@@ -22,7 +22,7 @@
 					</ul>
 				</li>
 
-				<li class="la-galaxy western">
+				<li class="la-galaxy western playoffs">
 					<span class="open-cup">LA Galaxy</span>
 					<ul class="stats">
 						<li class="p">47</li>
@@ -33,7 +33,7 @@
 					</ul>
 				</li>
 
-				<li class="columbus-crew central">
+				<li class="columbus-crew central playoffs">
 					<span>Columbus Crew</span>
 					<ul class="stats">
 						<li class="p">45</li>
@@ -44,7 +44,7 @@
 					</ul>
 				</li>
 
-				<li class="san-jose-earthquakes western">
+				<li class="san-jose-earthquakes western playoffs">
 					<span class="mls-cup">San Jose Earthquakes</span>
 					<ul class="stats">
 						<li class="p">45</li>
@@ -55,7 +55,7 @@
 					</ul>
 				</li>
 
-				<li class="new-york-red-bulls eastern">
+				<li class="new-york-red-bulls eastern playoffs">
 					<span>MetroStars</span>
 					<ul class="stats">
 						<li class="p">42</li>
@@ -66,7 +66,7 @@
 					</ul>
 				</li>
 
-				<li class="sporting-kansas-city western">
+				<li class="sporting-kansas-city western playoffs">
 					<span>Kansas City Wizards</span>
 					<ul class="stats">
 						<li class="p">36</li>
@@ -77,7 +77,7 @@
 					</ul>
 				</li>
 
-				<li class="fc-dallas central">
+				<li class="fc-dallas central playoffs">
 					<span>Dallas Burn</span>
 					<ul class="stats">
 						<li class="p">35</li>
