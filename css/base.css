@@ -1106,6 +1106,19 @@ a:visited {
    ========================================================================== */
 /* Team Block Mixin
 ========================================================================== */
+/* Atlanta United
+========================================================================== */
+.atlanta-united {
+  background-color: #80000b;
+  border-top: 1px solid #b3000f;
+  border-bottom: 1px solid #4d0007;
+}
+@media all and (min-width: 1024px) {
+  .atlanta-united {
+    border: none;
+  }
+}
+
 /* Chicago Fire
 ========================================================================== */
 .chicago-fire {
@@ -1128,6 +1141,19 @@ a:visited {
 }
 @media all and (min-width: 1024px) {
   .chivas-usa {
+    border: none;
+  }
+}
+
+/* FC Cincinnati
+========================================================================== */
+.fc-cincinnati {
+  background-color: #EF4D1D;
+  border-top: 1px solid #f2734d;
+  border-bottom: 1px solid #cb390e;
+}
+@media all and (min-width: 1024px) {
+  .fc-cincinnati {
     border: none;
   }
 }
@@ -1604,6 +1630,19 @@ a:visited {
   }
 }
 
+/* LAFC
+========================================================================== */
+.la-fc {
+  background-color: #C2A979;
+  border-top: 1px solid #d2bf9c;
+  border-bottom: 1px solid #b29356;
+}
+@media all and (min-width: 1024px) {
+  .la-fc {
+    border: none;
+  }
+}
+
 /* LA Galaxy - Override mixin's border colors
 ========================================================================== */
 .la-galaxy {
@@ -1800,6 +1839,19 @@ a:visited {
 }
 @media all and (min-width: 1024px) {
   .miami-fusion {
+    border: none;
+  }
+}
+
+/* Minnesota United
+========================================================================== */
+.minnesota-united {
+  background-color: #98C9E6;
+  border-top: 1px solid #c1dff0;
+  border-bottom: 1px solid #6fb3dc;
+}
+@media all and (min-width: 1024px) {
+  .minnesota-united {
     border: none;
   }
 }
