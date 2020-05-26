@@ -1,3 +1,15 @@
+/**
+ * To generate data for a season, update the "year" and "input" variables at the top of this script,
+ * then execute by running "node generateSeason.js".  The new or updated season file will be alongside
+ * the rest in the /includes folder.
+ * 
+ * Variables
+ *     year: year of the MLS season
+ *     input: copy the table data from the Wikipedia template for the MLS season results: https://en.wikipedia.org/w/index.php?title=Template:2019_Major_League_Soccer_season_table&action=edit
+ * 
+ *     Note: the Wikipedia is missing data on the Open Cup and has incomplete data on the Voyageurs Cup, so you may need to update the output manually to add those annotations.
+ */
+
 const year = "2019";
 
 const input = `
@@ -24,13 +36,14 @@ const input = `
 |win_SEA=16 |draw_SEA=8 |loss_SEA=10 |gf_SEA=52 |ga_SEA=49  |status_SEA=C<!-- Seattle Sounders -->
 |win_SKC=10 |draw_SKC=8 |loss_SKC=16 |gf_SKC=49 |ga_SKC=67  <!-- Sporting Kansas City -->
 |win_TOR=13 |draw_TOR=11 |loss_TOR=10 |gf_TOR=57 |ga_TOR=52  <!-- Toronto FC -->
-|win_VAN=8 |draw_VAN=10 |loss_VAN=16 |gf_VAN=37 |ga_VAN=59  <!-- Vancouver Whitecaps -->`;
+|win_VAN=8 |draw_VAN=10 |loss_VAN=16 |gf_VAN=37 |ga_VAN=59  <!-- Vancouver Whitecaps -->
+`;
 
 class TeamSeason {
     mlsCup = false;
     shield = false;
     openCup = false;
-    voyagersCup = false;
+    voyageursCup = false;
 
     points() {
         return (3 * this.wins) + parseInt(this.draws);
@@ -77,7 +90,7 @@ function parseTeam(line) {
         if (awards.includes("X") || awards.includes("S")) { team.shield = true; } // Wikipedia changed from X to S to indicate Supporters Shield
         if (awards.includes("C")) { team.mlsCup = true; }
         if (awards.includes("U")) { team.openCup = true; }
-        if (awards.includes("V")) { team.voyagersCup = true; }
+        if (awards.includes("V")) { team.voyageursCup = true; }
     }
     
     return team;
@@ -106,7 +119,7 @@ function generateHtml(teams) {
         if (t.mlsCup) { trophies.push('mls-cup'); }
         if (t.shield) { trophies.push('supporters-shield'); }
         if (t.openCup) { trophies.push('open-cup'); }
-        if (t.voyagersCup) { trophies.push('voyagers-cup'); }
+        if (t.voyageursCup) { trophies.push('voyageurs-cup'); }
 
         if (trophies.length > 0) {
             trophies = ` class=\"${trophies.join(' ')}\"`;
@@ -159,7 +172,7 @@ let teamData = {
     VAN: ["Vancouver Whitecaps", "vancouver-whitecaps", "western"]
 };
 
-const teams = getTeams(input);
+const teams = getTeams(input.trim());
 
 const outputHtml = generateHtml(teams);
 
