@@ -1,5 +1,6 @@
 <?php
-  $latest_year = 2015;
+  $latest_year = 2019;
+  $num_teams = 24;
 ?>
 
 <!DOCTYPE html>
@@ -86,14 +87,14 @@
 
       <section id="table-position">
         <ol>
-          <?php for($p = 1; $p <= 20; $p++): ?>
+          <?php for($p = 1; $p <= $num_teams; $p++): ?>
           <li><?php echo $p; ?></li>
           <?php endfor; ?>
         </ol>
       </section>
 
       <section id="table-listing">
-        <?php for($y = 2015; $y >= 1996; $y--): ?>
+        <?php for($y = $latest_year; $y >= 1996; $y--): ?>
         <?php include('includes/' . $y . '.php'); ?>
         <?php endfor; ?>
       </section>
