@@ -16,6 +16,16 @@
 }
 
 
+/* Atlanta United
+========================================================================== */
+$atlanta-united: #80000b;
+
+.atlanta-united {
+	@include team-colors($atlanta-united);
+}
+
+
+
 /* Chicago Fire
 ========================================================================== */
 $chicago-fire: #BA0C2F;
@@ -32,6 +42,16 @@ $chivas-usa: #E11B22;
 
 .chivas-usa {
 	@include team-colors($chivas-usa);
+}
+
+
+
+/* FC Cincinnati
+========================================================================== */
+$fc-cincinnati: #EF4D1D;
+
+.fc-cincinnati {
+	@include team-colors($fc-cincinnati);
 }
 
 
@@ -130,6 +150,16 @@ $impact-montreal: #003087;
 
 
 
+/* LAFC
+========================================================================== */
+$la-fc: #C2A979;
+
+.la-fc {
+	@include team-colors($la-fc);
+}
+
+
+
 /* LA Galaxy - Override mixin's border colors
 ========================================================================== */
 $la-galaxy: #FFFFFF;
@@ -172,6 +202,16 @@ $miami-fusion: #012169;
 
 .miami-fusion {
 	@include team-colors($miami-fusion)
+}
+
+
+
+/* Minnesota United
+========================================================================== */
+$minnesota-united: #98C9E6;
+
+.minnesota-united {
+	@include team-colors($minnesota-united);
 }
 
 
