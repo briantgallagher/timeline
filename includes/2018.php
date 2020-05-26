@@ -170,7 +170,7 @@
 					</ul>
 				</li>
 				<li class="toronto-fc eastern">
-					<span>Toronto FC</span>
+					<span class="voyageurs-cup">Toronto FC</span>
 					<ul class="stats">
 						<li class="p">36</li>
 						<li class="gd">-5</li>

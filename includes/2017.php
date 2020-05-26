@@ -1,6 +1,6 @@
 			<ol class="table-list current" data-year="2017">
 				<li class="toronto-fc eastern">
-					<span class="mls-cup supporters-shield">Toronto FC</span>
+					<span class="mls-cup supporters-shield voyageurs-cup">Toronto FC</span>
 					<ul class="stats">
 						<li class="p">69</li>
 						<li class="gd">37</li>
@@ -159,8 +159,8 @@
 						<li class="d">9</li>
 					</ul>
 				</li>
-				<li class="minnesota-united western">
-					<span>Minnesota United</span>
+				<li class="impact-montreal eastern">
+					<span>Montreal Impact</span>
 					<ul class="stats">
 						<li class="p">39</li>
 						<li class="gd">-6</li>
@@ -179,8 +179,8 @@
 						<li class="d">9</li>
 					</ul>
 				</li>
-				<li class="la-galaxy western">
-					<span>LA Galaxy</span>
+				<li class="minnesota-united western">
+					<span>Minnesota United</span>
 					<ul class="stats">
 						<li class="p">36</li>
 						<li class="gd">-23</li>

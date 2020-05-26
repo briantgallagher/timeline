@@ -170,7 +170,7 @@
 					</ul>
 				</li>
 				<li class="impact-montreal eastern">
-					<span class="voyagers-cup">Montreal Impact</span>
+					<span class="voyageurs-cup">Montreal Impact</span>
 					<ul class="stats">
 						<li class="p">41</li>
 						<li class="gd">-13</li>
